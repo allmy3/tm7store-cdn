@@ -1,0 +1,107 @@
+@media (max-width: 1400px) {
+    .search-input {
+        width: 89%;
+        height: 40px;
+        padding: 15px;
+    }
+    .product_image {
+        max-width: 300px;
+        max-height: 300px;
+        min-height: 100px;
+        min-width: 100px;
+        width: 100%;
+        height: 100%;
+        border-radius: 7px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 1200px) {.search-input {width: 87%;height: 40px;padding: 15px;}}
+
+@media (max-width: 992px) {
+    .navbar-menu li a {
+        font-size: 14px;
+        padding: 2px;
+    }
+    .auth-block {
+    	margin-left: 15px;
+    	padding: 9px 14px;
+        font-size: 16px;
+    }
+    .sub-category-image {
+        width: 120px;
+        height: 120px;
+    }
+    .search-input {width: 82%;height: 40px;padding: 15px;}
+}
+
+@media (max-width: 768px) {
+    .navbar-menu li a {
+        font-size: 13px;
+        padding: 0px;
+    }
+    .navbar-menu {margin-left: 0;}
+    .sub-category-image {
+        width: 100px;
+        height: 100px;
+    }
+    .center-item-product-price {
+        margin-top: 3%;
+    }
+    .search-input {width: 77%;height: 40px;padding: 15px;}
+    .product_image {width: 250px; height: 250px;}
+    .navbar-menu li a {
+        display: none;
+    }
+    #menu {display: block; margin-left: 100%; font-size: 17px;}
+    #menu li a {z-index: 2;}
+    .mobile-menu-links:hover {color: orange}
+    .navbar-menu-mobile {
+        display: block;
+        position: absolute;
+        left: -350px;
+        top: 0;
+        width: 350px;
+        text-align: center;
+        background-color: blueviolet;
+        padding: 100px 20px 20px 20px;
+        border-radius: 7px;
+        transition: transform .5s;
+    }
+    .mobile-menu-limks {
+        display: block;
+        font-size: 21px;
+        padding: 25px 5px;
+    }
+    .container.open .navbar-menu-mobile {transform: translateX(100%);}
+}
+
+@media (max-width: 580px) {
+    .search-input {
+        width: 68%;
+        height: 40px;
+        padding: 15px;
+    }
+    .auth-block {
+    	margin-left: 12px;
+    	padding: 7px 12px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product_image {width: 230px; height: 230px;}
+    .way {margin-top: 15px;}
+    .search-input {
+        width: 64%;
+        height: 40px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .search-input {
+        width: 60%;
+        height: 40px;
+        padding: 15px;
+    }
+}
